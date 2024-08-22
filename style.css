@@ -173,6 +173,12 @@ body {
         display: flex;
     }
 
+    .call-no,
+    .mail-no {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
     .call-us,
     .mail-us {
         display: none;
@@ -181,7 +187,7 @@ body {
     .call-us-12 span,
     .mail-us-12 span {
         color: var(--primary-color);
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .new-call {
