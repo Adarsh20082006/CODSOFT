@@ -14,7 +14,7 @@ ScrollReveal().reveal(".description h1", {
 });
 ScrollReveal().reveal(".content", {
     ...scrollRevealOption,
-    delay: 1000,
+    delay: 500,
 });
 // ScrollReveal().reveal(".button button", {
 //     ...scrollRevealOption,

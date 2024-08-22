@@ -181,7 +181,7 @@ body {
     .call-us-12 span,
     .mail-us-12 span {
         color: var(--primary-color);
-        font-size: 2rem;
+        font-size: 1rem;
     }
 
     .new-call {
