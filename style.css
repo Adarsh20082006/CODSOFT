@@ -142,7 +142,7 @@ body {
 
 @media (width<=786px) {
     body {
-        margin: 0px;
+        margin: 0px 5px;
     }
 
     .container {
@@ -187,11 +187,11 @@ body {
     .new-call {
         display: flex;
         justify-content: space-between;
-        gap: 3rem;
+        gap: 1rem;
     }
 
     img {
-        width: 450px;
+        width: 400px;
     }
 
     .logo {

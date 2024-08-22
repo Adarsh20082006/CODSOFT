@@ -1,7 +1,7 @@
 const scrollRevealOption = {
     distance: "50px",
     origin: "bottom",
-    duration: 1000,
+    duration: 7000,
 };
 
 ScrollReveal().reveal(".img img", {
@@ -16,10 +16,10 @@ ScrollReveal().reveal(".content", {
     ...scrollRevealOption,
     delay: 1000,
 });
-ScrollReveal().reveal(".button", {
-    ...scrollRevealOption,
-    delay: 2000,
-});
+// ScrollReveal().reveal(".button button", {
+//     ...scrollRevealOption,
+//     delay: 1500,
+// });
 
 let btn = document.querySelector("button");
 btn.addEventListener('click', () => {
